@@ -1,0 +1,94 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --chatams-blue: #135479;
+    --chantilly: #f8c3f0;
+    --biloba-flower: #aeb5ec;
+}
+
+::selection {
+    background-color: var(--chatams-blue);
+    color: var(--biloba-flower);
+}
+
+/*universal selector */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: var(--chatams-blue);
+    position: relative;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: var(--chantilly);
+    text-align: center;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--chantilly);
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 550px;
+    padding: 10px;
+    border: 5px solid var(--chantilly);
+    border-radius: 20px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid var(--chatams-blue)
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 220px;
+    background-color: var(--biloba-flower);
+    font-size: larger;
+}
+
+div {
+    padding: 50px;
+    font-size: larger;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--chantilly);
+    text-align: center;
+}
+
+
+
+/*class selectors*/
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

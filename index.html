@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Random Password Generator</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="page-title">
+            Random Password Generator
+            <p>
+                for all your random passwording needs
+            </p>
+        </h1>
+    </header>
+
+    <main>
+        <section id="generator">
+            <h2 class="text-center">Click to Generate</h2>
+            <form>
+                <div id="random-password">
+                    <input type="text" id="password" /> <button id="copy">Copy</button>
+                    <p></p>
+                    <div class="settings">
+                        <label for="length">length:</label>
+                        <input type="number" id="length" value="16" min="8" max="64" />
+                        
+                        <label for="numbers">Include Numbers:</label>
+                        <input type="checkbox" id="numbers" checked />
+
+                        <label for="symbols">Include Symbols:</label>
+                        <input type="checkbox" id="symbols" checked />
+                    </div>
+                    <button id="generate">Generate Password</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
