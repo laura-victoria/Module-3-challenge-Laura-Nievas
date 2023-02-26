@@ -33,3 +33,7 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 
 THEN the password is either displayed in an alert or written to the page
+
+![image](https://user-images.githubusercontent.com/112923011/221394246-3e091b86-59d2-4f5b-8c6f-6417a1916688.png)
+![image](https://user-images.githubusercontent.com/112923011/221394283-cc675142-b472-4d87-a649-050a5284baa4.png)
+
